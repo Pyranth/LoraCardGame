@@ -1,0 +1,24 @@
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\LoraCardGame.csprojResolveAssemblyReference.cache
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\MainWindow.g.cs
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\App.g.cs
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\LoraCardGame_MarkupCompile.cache
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\LoraCardGame_MarkupCompile.lref
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\bin\Debug\LoraCardGame.exe
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\bin\Debug\LoraCardGame.pdb
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\bin\Debug\Client.dll
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\bin\Debug\Server.dll
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\bin\Debug\GameEngine.dll
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\bin\Debug\Client.pdb
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\bin\Debug\Server.pdb
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\bin\Debug\GameEngine.pdb
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\MainWindow.baml
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\LoraCardGame.g.resources
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\LoraCardGame.Properties.Resources.resources
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\LoraCardGame.csproj.GenerateResource.Cache
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\LoraCardGame.exe
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\LoraCardGame.pdb
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\User Controls\Card.g.cs
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\User Controls\Card.baml
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\User Controls\Player.g.cs
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\LoraCardGame\obj\Debug\User Controls\Player.baml

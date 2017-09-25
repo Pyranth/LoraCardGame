@@ -1,0 +1,5 @@
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\GameEngine\bin\Debug\GameEngine.dll
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\GameEngine\bin\Debug\GameEngine.pdb
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\GameEngine\obj\Debug\GameEngine.dll
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\GameEngine\obj\Debug\GameEngine.pdb
+C:\Users\NewPC\Desktop\ETF\3. godina RI\Projekat 1\LoraCardGame\GameEngine\obj\Debug\GameEngine.csprojResolveAssemblyReference.cache
