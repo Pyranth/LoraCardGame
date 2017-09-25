@@ -1,0 +1,66 @@
+﻿<Window x:Class="LoraCardGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoraCardGame"
+        xmlns:local1="clr-namespace:LoraCardGame.User_Controls"
+        mc:Ignorable="d"
+        Title="Lora" Height="650" Width="1024" MinHeight="610" MinWidth="910" Background="#FB105120" Closing="Window_Closing">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_Game">
+                    <MenuItem Name="Start" Header="_Start new game" Click="Start_Click"/>
+                    <MenuItem Name="Join" Header="_Join game" Click="Join_Click"/>
+                    <Separator/>
+                    <MenuItem Header="_Close"/>
+                </MenuItem>
+            </Menu>
+            <StackPanel></StackPanel>
+        </DockPanel>
+
+        <Border BorderThickness="1" BorderBrush="Black" Height="130" Width="460" CornerRadius="5,5,5,5" Margin="45,395,45,45" VerticalAlignment="Bottom">
+            <StackPanel Height="120" Margin="20,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ItemsControl Name="CardsItemsControl" ItemsSource="{Binding Path=Cards}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="20,0,0,0" />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemContainerStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.Margin" Value="-40,0,0,0"/>
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+                </ItemsControl>
+            </StackPanel>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gold" Height="130" Width="400" CornerRadius="5,5,5,5" Margin="0,0,0,50">
+            <StackPanel HorizontalAlignment="Center" Height="120" VerticalAlignment="Center">
+                <ItemsControl Name="CardsOnTableItemsControl" ItemsSource="{Binding Path=CardsOnTable}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal" />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemContainerStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.Margin" Value="5,0,0,0"/>
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+                </ItemsControl>
+            </StackPanel>
+        </Border>
+
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextAlignment="Center" Margin="305,160,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400"/>
+
+        <local1:Player x:Name="Player1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,0,0,50" />
+        <local1:Player x:Name="Player2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,30,50"/>
+        <local1:Player x:Name="Player3" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,30,0,0" />
+        
+        <Button x:Name="buttonStart" Content="Start game" HorizontalAlignment="Left" Margin="470,260,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="buttonStart_Click" Visibility="Collapsed"/>
+
+    </Grid>
+</Window>
