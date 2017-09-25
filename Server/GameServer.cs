@@ -168,7 +168,6 @@ namespace Server
                 if (numberOfConnectedPlayers == 4)
                 {
                     isServerFull = true;
-                    //SendMessageStartGame();
                 }
 
                 return true;
@@ -257,9 +256,6 @@ namespace Server
                     numberOfConnectedPlayers--;
                     isServerFull = false;
                     gameManager.ResetGame();
-
-                    //SendMessageResetGame();
-
                     break;
 
                 default:

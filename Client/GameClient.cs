@@ -37,7 +37,6 @@ namespace Client
             //Generating 192.168.0.1/24 IP Range
             for (int i = 8; i < 255; i++)
             {
-                //Obviously you'll want to safely parse user input to catch exceptions.
                 ipAddressList.Add(IPAddress.Parse("192.168.1." + i));
             }
 
@@ -49,8 +48,6 @@ namespace Client
 
                 if (SendARP(uintAddress, 0, macAddr, ref macAddrLen) == 0)
                 {
-                    //MessageBox.Show("{0} responded to ping", ip.ToString());
-
                     try
                     {
                         tcpClient = new TcpClient();
@@ -111,15 +108,6 @@ namespace Client
                 byte[] messageReadByte = new byte[tcpClient.ReceiveBufferSize];
                 int bytesRead = networkStream.Read(messageReadByte, 0, tcpClient.ReceiveBufferSize);
                 ParseMessage(messageReadByte);
-
-                /*
-                // Can't change UI directly because this function is in separate thread
-                // Not sure if 'this' is needed, StackOverflow has divided opinions, used it just in case
-                this.Dispatcher.BeginInvoke(new Action(() =>
-                {
-                    ParseMessage(messageReadByte);
-                }));
-                */
             }
         }
 

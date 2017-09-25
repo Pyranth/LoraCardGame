@@ -52,22 +52,6 @@ namespace LoraCardGame
 
         private void Initialize()
         {
-            /*
-            Cards.Add(new Card(new CardModel("ace", "spades")));
-            Cards.Add(new Card(new CardModel("ace", "spades")));
-            Cards.Add(new Card(new CardModel("ace", "spades")));
-            Cards.Add(new Card(new CardModel("ace", "spades")));
-            Cards.Add(new Card(new CardModel("ace", "spades")));
-            Cards.Add(new Card(new CardModel("ace", "spades")));
-            Cards.Add(new Card(new CardModel("ace", "spades")));
-            Cards.Add(new Card(new CardModel("ace", "spades")));
-
-            CardsOnTable.Add(new Card(new CardModel("ace", "spades")));
-            CardsOnTable.Add(new Card(new CardModel("ace", "hearts")));
-            CardsOnTable.Add(new Card(new CardModel("ace", "diamonds")));
-            CardsOnTable.Add(new Card(new CardModel("ace", "clubs")));
-            */
-
             Player1.textBlockPlayer.Text = "Player";
             Player2.textBlockPlayer.Text = "Player";
             Player3.textBlockPlayer.Text = "Player";
